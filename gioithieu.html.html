@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2;
+        }
+        header {
+            background-color: #ff66b3;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        nav {
+            background: #cc6699;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #cc6699;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ff66b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc6699;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chào mừng đến với Nhóm Chúng Tôi</h1>
+        <p>Học-Làm-Sáng Tạo</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#homepage">Trang Chính</a>
+        <a href="#about">Trang Giới Thiệu</a>
+        <a href="#projects">Trang Dự Án</a>
+        <a href="#contact">Trang Liên Hệ</a>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="homepage">
+        <h2>Trang Chính</h2>
+        <p>Chào mừng bạn đến với trang web của nhóm chúng em! .</p>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>Giới Thiệu</h2>
+        <ul>
+            <li>
+                <strong>Chức vụ:</strong> Trưởng Nhóm<br>
+                <strong>Tên:</strong> Lê Thùy Linh<br>
+                <strong>Ngày sinh:</strong> 23/05/2007<br>
+                <strong>Sở thích:</strong> Nghe nhạc, xem phim, đọc truyện<br>
+                <img src="C:\Users\lthuy\OneDrive\Hình ảnh\Saved Pictures\thuylinh.jpg" alt="Lê Thùy Linh" style="width: 150px; border-radius: 50%; margin-top: 10px;">
+            </li>
+            <li>
+                <strong>Chức vụ:</strong> Phó Nhóm<br>
+<strong>Tên:</strong> Lê Anh Tuấn<br>
+                <strong>Ngày sinh:</strong> 15/03/2007<br>
+                <strong>Sở thích:</strong> Thích học toán, xem phim khoa học viễn tưởng<br>
+                <img src="C:\Users\lthuy\OneDrive\Hình ảnh\Saved Pictures\anhtuan.jpg" alt="Lê Anh Tuấn" style="width: 150px; border-radius: 50%; margin-top: 10px;">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Trang Dự Án</h2>
+        <div>
+            <h3>Dự Án 1: Website Giới Thiệu</h3>
+            <p>Thiết kế và phát triển một website tĩnh giới thiệu nhóm và các dự án.</p>
+            <img src="C:\Users\lthuy\OneDrive\Hình ảnh\Screenshots\anhweb.png" alt="Hình minh họa dự án 1" style="width: 100%; border-radius: 8px;">
+        </div>
+        
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Trang Liên Hệ</h2>
+        <form>
+            <label for="name">Tên:</label><br>
+            <input type="text" id="name" name="name" required style="width: 100%; margin-bottom: 10px;">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required style="width: 100%; margin-bottom: 10px;">
+            <label for="phone">Số điện thoại:</label><br>
+            <input type="tel" id="phone" name="phone" required style="width: 100%; margin-bottom: 10px;">
+            <label for="message">Nội dung:</label><br>
+            <textarea id="message" name="message" rows="5" required style="width: 100%; margin-bottom: 10px;"></textarea>
+            <button type="submit">Gửi</button>
+        </form>
+        <p><strong>Email:</strong> lthuylinh@gmail.com<br><strong>Số điện thoại:</strong> 0942442559<br><strong>Địa chỉ:</strong>Triệu Trạch, Triệu Phong, Quảng Trị<br> </p>
+        <p>Kết nối với chúng tôi qua mạng xã hội:</p>
+        <a href="#">Facebook</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Linh&Tuấn. All Rights Reserved.
+    </footer>
+</body>
+</html>
